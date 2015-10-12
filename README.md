@@ -1,2 +1,2 @@
 # kopy
-Copy text to clipboard on browsers
+Copy texts to clipboard on browsers
