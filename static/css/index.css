@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+    background: #28292d;
+}
+
+img,
+a {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+}
+.turntable-wrapper {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.turntable {
+    position: relative;
+    display: inline-block;
+    width: 628px;
+    height: 628px;
+    z-index: 100;
+}
+
+.turntable-bg {
+    position: relative;
+}
+
+.turntable-pointer {
+    position: absolute;
+    top: 34%;
+    left: 36.4%;
+    z-index: 100;
+}
+
+.pointer {
+    cursor: pointer;
+}
