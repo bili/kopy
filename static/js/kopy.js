@@ -1,7 +1,7 @@
 (function() {
     var Clipboard, root;
 
-    Clipboard = {
+    Kopy = {
         _createTextArea: function() {
             var textArea = document.createElement("textarea");
             textArea.style.position = "absolute";
@@ -43,6 +43,6 @@
 
     root = typeof exports !== "undefined" && exports !== null ? exports : window;
 
-    root.Clipboard = Clipboard;
+    root.Kopy = Kopy;
 
 }).call(this);
