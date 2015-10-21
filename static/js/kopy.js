@@ -1,5 +1,5 @@
 (function() {
-    var Clipboard, root;
+    var Kopy, root;
 
     Kopy = {
         _createTextArea: function() {
